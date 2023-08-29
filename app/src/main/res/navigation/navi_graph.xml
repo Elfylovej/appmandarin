@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.firebasequizzy.views.listFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_quizzyFragment2"
+            app:destination="@id/quizzyFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizzyFragment2"
+        android:name="com.example.firebasequizzy.views.quizzyFragment"
+        android:label="fragment_quizzy"
+        tools:layout="@layout/fragment_quizzy" >
+        <action
+            android:id="@+id/action_quizzyFragment2_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.firebasequizzy.views.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>

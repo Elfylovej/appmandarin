@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202155511850",
+    "project_id": "fir-quizzy",
+    "storage_bucket": "fir-quizzy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202155511850:android:809cbb0b79f750ac073353",
+        "android_client_info": {
+          "package_name": "com.example.firebasequizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202155511850-5v28j9sv3l9ms7n0liugnt3ar0dccqss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADljSJl_tlbQml77ldHL6z49H_2Ym_6AQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202155511850-5v28j9sv3l9ms7n0liugnt3ar0dccqss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
